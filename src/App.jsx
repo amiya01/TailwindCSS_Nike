@@ -14,7 +14,7 @@ import Nav from "./components/Nav";
 const App = () => (
   <main className="relative">
     <Nav />
-    <section className="xl:padding-1 wide:padding-r padding-b">
+    <section className="xl:padding-l wide:padding-r padding-b">
       <Hero />
     </section>
     <section className="padding">
@@ -23,19 +23,19 @@ const App = () => (
     <section className="padding">
       <SuperQuality />
     </section>
-    <section className="padding-x py-10">
+    <section className="py-10 padding-x">
       <Services />
     </section>
     <section className="padding">
       <SpecialOffers />
     </section>
-    <section className="padding bg-pale-blue ">
+    <section className="bg-pale-blue padding">
       <CustomerReviews />
     </section>
-    <section className="padding-x sm:py-32 py-16 w-full">
+    <section className="py-16 sm:py-32 w-full padding-x">
       <Subscribe />
     </section>
-    <section className="padding-x padding-t pb-8 bg-black">
+    <section className="bg-black pb-8 padding-t padding-x">
       <Footer />
     </section>
   </main>
